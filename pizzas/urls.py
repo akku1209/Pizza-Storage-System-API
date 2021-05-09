@@ -20,5 +20,5 @@ from rest_framework.documentation import include_docs_urls
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(('api.urls', 'api'), namespace='api')),
-    path('docs/', include_docs_urls(title="Hanzala's Pizzeria API Documentation"))
+    path('docs/', include_docs_urls(title="Pizzeria API Documentation"))
 ]
