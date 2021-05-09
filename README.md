@@ -1,6 +1,12 @@
-# pizzas
+# Pizzeria
 
-API for creating pizza orders and much more.
+API for creating pizza orders,store them,edit and delete them .
+
+# Concerned topics 
+
+1. Python-Django
+2. MongoDB
+3. Rest-API
 
 ## Steps to run a local server
 
@@ -8,11 +14,11 @@ API for creating pizza orders and much more.
    ```shell
     pip install -r requirements.txt
     ```
-2. Make migrations
+2. Make migrations to the system
     ```shell
     python manage.py makemigrations pizza
     ```
-3. Apply migrations
+3. Apply migrations to the system
     ```shell
     python manage.py migrate
     ```
@@ -24,6 +30,7 @@ API for creating pizza orders and much more.
 
 
 ## API Info
+### Click the below options to read more.
 
 1. **create**
     <details><summary><ins>pizza</ins></summary>
